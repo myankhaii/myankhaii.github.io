@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <style>
+            button{
+                width: 30%;
+                height: 2rem;
+                cursor: pointer;
+                margin-left: 35%;
+                margin-bottom: 0;
+                margin-top: 10%;
+
+            }
+            img{
+                width: 80%;
+                height: auto;
+                margin-left: 10%;
+                border-radius: 4.5%;
+            }
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            div{
+                width: 80%;
+                height: 10%;
+                border: 1px solid;
+                text-align: center;
+                margin: 10%;
+                margin-bottom: 0;
+                border-radius: 1.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <button onclick="playingAudio()" id="but1">play</button>
+        <div><p id="pp">Би зүрээр л хиймээргүй байна.</p></div>
+        <img src="https://media.giphy.com/media/xTiQyxoTCdUTBlIye4/giphy.gif">
+    </body>
+    <script>
+        var running = 1
+        var audio = new Audio(src="latestver.mp3")
+        var pTag = document.getElementById("pp")
+        var buttn1 = document.getElementById("but1")
+        function playingAudio(){
+            if(running==1){
+                audio.play()
+                buttn1.disabled=true
+                //buttn1.innerHTML="pause"
+                //running++
+                setTimeout(playing,500)
+                setTimeout(playingg,1500)
+                setTimeout(playinggg,2000)
+                setTimeout(playingg,3500)
+                setTimeout(playinggg,4200)
+                setTimeout(playingggg,5700)
+                setTimeout(playinggggg,5800)
+                setTimeout(playingggggg,5900)
+                setTimeout(playinggggggg,6000)
+                setTimeout(playingggggggg,6100)
+                setTimeout(playinggggggggg,6200)
+                setTimeout(playingggggggggg,7700)
+                setTimeout(playinggggggggggg,8000)
+                setTimeout(playingggggggggggg,8300)
+                setTimeout(playinggg,9200)
+                setTimeout(playingg,9600)
+                setTimeout(playinggg,10200)
+                setTimeout(playingg,11800)
+                setTimeout(playinggg,12200)
+                setTimeout(playingggg,13800)
+                setTimeout(playinggggg,13900)
+                setTimeout(playingggggg,14000)
+                setTimeout(playinggggggg,14100)
+                setTimeout(playingggggggg,14200)
+                setTimeout(playinggggggggg,14300)
+                setTimeout(playingggggggggg,15600)
+                setTimeout(playinggggggggggg,15900)
+                setTimeout(playingggggggggggg,16200)
+                setTimeout(playinggggggggggggg,16900)
+            }
+            // else if(running==2){
+            //     audio.pause()
+            //     running++
+            //     buttn1.innerHTML="start"
+            // }else if(running==3){
+            //     running=1
+            //     audio.currentTime=0
+            //     buttn1.innerHTML="play"
+            // }
+            
+        }
+        function playing(){
+            pTag.innerHTML="Чи яг юу хиймээр байна."
+        }
+        function playingg(){
+            pTag.innerHTML="Би зүрээр л"
+        }
+        function playinggg(){
+            pTag.innerHTML="ХАС : ХИЙМЭЭРГҮЙ БАЙНА."
+        }
+        function playingggg(){
+            pTag.innerHTML="БИ"
+        }
+        function playinggggg(){
+            pTag.innerHTML="БИ БИ"
+        }
+        function playingggggg(){
+            pTag.innerHTML="БИ БИ БИ"
+        }
+        function playinggggggg(){
+            pTag.innerHTML="БИ БИ БИ БИ"
+        }
+        function playingggggggg(){
+            pTag.innerHTML="БИ БИ БИ БИ БИ"
+        }
+        function playinggggggggg(){
+            pTag.innerHTML="БИ БИ БИ БИ БИ БИ"
+        }
+        function playingggggggggg(){
+            pTag.innerHTML="зүгээр л"
+        }
+        function playinggggggggggg(){
+            pTag.innerHTML="зүгээр л зүгээр л"
+        }
+        function playingggggggggggg(){
+            pTag.innerHTML="зүгээр л зүгээр л зүгээр л"
+        }
+        function playinggggggggggggg(){
+            pTag.innerHTML="хараал идсэн теленүүдийг хиймээргүй байна!"
+        }
+    </script>
+</html>
